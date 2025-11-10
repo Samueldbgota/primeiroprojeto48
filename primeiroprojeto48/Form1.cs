@@ -16,5 +16,15 @@ namespace primeiroprojeto48
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            label1.Text = "Ola texto";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label1.Text = "Ola texto";
+        }
     }
 }
