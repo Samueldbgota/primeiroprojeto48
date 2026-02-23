@@ -5,7 +5,7 @@ public class Connection
 {
     private SqlConnection conn;
 
-    string connectionString = @"Server=JUN0541188W10-1\BDSENAC; Database=BoaDB; User ID=senaclivre; Password=senaclivre;";
+    string connectionString = @"Server=JUN0570945W10-1\BDSENAC; Database=BoaDB; User ID=senaclivre; Password=senaclivre;";
 
     public SqlConnection Connect()
     {

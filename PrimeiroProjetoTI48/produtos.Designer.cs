@@ -99,13 +99,13 @@
             this.GridProduto.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.GridProduto.Location = new System.Drawing.Point(36, 172);
             this.GridProduto.Name = "GridProduto";
-            this.GridProduto.Size = new System.Drawing.Size(465, 237);
+            this.GridProduto.Size = new System.Drawing.Size(352, 170);
             this.GridProduto.TabIndex = 6;
             this.GridProduto.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GridProduto_CellContentClick);
             // 
             // btnAdicionar
             // 
-            this.btnAdicionar.Location = new System.Drawing.Point(619, 53);
+            this.btnAdicionar.Location = new System.Drawing.Point(36, 363);
             this.btnAdicionar.Name = "btnAdicionar";
             this.btnAdicionar.Size = new System.Drawing.Size(75, 23);
             this.btnAdicionar.TabIndex = 7;
@@ -115,7 +115,7 @@
             // 
             // btnAlterar
             // 
-            this.btnAlterar.Location = new System.Drawing.Point(619, 83);
+            this.btnAlterar.Location = new System.Drawing.Point(117, 363);
             this.btnAlterar.Name = "btnAlterar";
             this.btnAlterar.Size = new System.Drawing.Size(75, 23);
             this.btnAlterar.TabIndex = 8;
@@ -125,7 +125,7 @@
             // 
             // btnExcluir
             // 
-            this.btnExcluir.Location = new System.Drawing.Point(619, 112);
+            this.btnExcluir.Location = new System.Drawing.Point(198, 363);
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.Size = new System.Drawing.Size(75, 23);
             this.btnExcluir.TabIndex = 9;
@@ -135,7 +135,7 @@
             // 
             // btnMostrarDados
             // 
-            this.btnMostrarDados.Location = new System.Drawing.Point(619, 141);
+            this.btnMostrarDados.Location = new System.Drawing.Point(279, 363);
             this.btnMostrarDados.Name = "btnMostrarDados";
             this.btnMostrarDados.Size = new System.Drawing.Size(75, 23);
             this.btnMostrarDados.TabIndex = 10;
@@ -145,7 +145,7 @@
             // 
             // btnConsultar
             // 
-            this.btnConsultar.Location = new System.Drawing.Point(619, 179);
+            this.btnConsultar.Location = new System.Drawing.Point(36, 392);
             this.btnConsultar.Name = "btnConsultar";
             this.btnConsultar.Size = new System.Drawing.Size(75, 23);
             this.btnConsultar.TabIndex = 11;
@@ -157,8 +157,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.ClientSize = new System.Drawing.Size(459, 450);
             this.Controls.Add(this.btnConsultar);
             this.Controls.Add(this.btnMostrarDados);
             this.Controls.Add(this.btnExcluir);

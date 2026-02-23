@@ -106,22 +106,22 @@
             // cmbCliente
             // 
             this.cmbCliente.FormattingEnabled = true;
-            this.cmbCliente.Location = new System.Drawing.Point(35, 243);
+            this.cmbCliente.Location = new System.Drawing.Point(23, 243);
             this.cmbCliente.Name = "cmbCliente";
-            this.cmbCliente.Size = new System.Drawing.Size(121, 21);
+            this.cmbCliente.Size = new System.Drawing.Size(113, 21);
             this.cmbCliente.TabIndex = 6;
             // 
             // cmbProduto
             // 
             this.cmbProduto.FormattingEnabled = true;
-            this.cmbProduto.Location = new System.Drawing.Point(219, 243);
+            this.cmbProduto.Location = new System.Drawing.Point(155, 243);
             this.cmbProduto.Name = "cmbProduto";
-            this.cmbProduto.Size = new System.Drawing.Size(121, 21);
+            this.cmbProduto.Size = new System.Drawing.Size(108, 21);
             this.cmbProduto.TabIndex = 7;
             // 
             // dtpDataVenda
             // 
-            this.dtpDataVenda.Location = new System.Drawing.Point(535, 12);
+            this.dtpDataVenda.Location = new System.Drawing.Point(313, 40);
             this.dtpDataVenda.Name = "dtpDataVenda";
             this.dtpDataVenda.Size = new System.Drawing.Size(253, 20);
             this.dtpDataVenda.TabIndex = 8;
@@ -137,7 +137,7 @@
             // 
             // btnNovaVenda
             // 
-            this.btnNovaVenda.Location = new System.Drawing.Point(299, 288);
+            this.btnNovaVenda.Location = new System.Drawing.Point(284, 288);
             this.btnNovaVenda.Name = "btnNovaVenda";
             this.btnNovaVenda.Size = new System.Drawing.Size(121, 23);
             this.btnNovaVenda.TabIndex = 11;
@@ -147,7 +147,7 @@
             // 
             // btnAdicionarItem
             // 
-            this.btnAdicionarItem.Location = new System.Drawing.Point(299, 351);
+            this.btnAdicionarItem.Location = new System.Drawing.Point(284, 335);
             this.btnAdicionarItem.Name = "btnAdicionarItem";
             this.btnAdicionarItem.Size = new System.Drawing.Size(121, 23);
             this.btnAdicionarItem.TabIndex = 12;
@@ -157,7 +157,7 @@
             // 
             // btnFinalizarVenda
             // 
-            this.btnFinalizarVenda.Location = new System.Drawing.Point(426, 351);
+            this.btnFinalizarVenda.Location = new System.Drawing.Point(421, 335);
             this.btnFinalizarVenda.Name = "btnFinalizarVenda";
             this.btnFinalizarVenda.Size = new System.Drawing.Size(121, 23);
             this.btnFinalizarVenda.TabIndex = 13;
@@ -167,7 +167,7 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(426, 288);
+            this.btnCancelar.Location = new System.Drawing.Point(421, 288);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(121, 23);
             this.btnCancelar.TabIndex = 14;
@@ -177,7 +177,7 @@
             // 
             // btnRemoverItem
             // 
-            this.btnRemoverItem.Location = new System.Drawing.Point(361, 399);
+            this.btnRemoverItem.Location = new System.Drawing.Point(354, 377);
             this.btnRemoverItem.Name = "btnRemoverItem";
             this.btnRemoverItem.Size = new System.Drawing.Size(121, 23);
             this.btnRemoverItem.TabIndex = 15;
@@ -187,7 +187,7 @@
             // 
             // txtVendaId
             // 
-            this.txtVendaId.Location = new System.Drawing.Point(131, 44);
+            this.txtVendaId.Location = new System.Drawing.Point(112, 44);
             this.txtVendaId.Name = "txtVendaId";
             this.txtVendaId.Size = new System.Drawing.Size(164, 20);
             this.txtVendaId.TabIndex = 16;
@@ -195,7 +195,7 @@
             // 
             // txtQuantidade
             // 
-            this.txtQuantidade.Location = new System.Drawing.Point(131, 117);
+            this.txtQuantidade.Location = new System.Drawing.Point(112, 124);
             this.txtQuantidade.Name = "txtQuantidade";
             this.txtQuantidade.Size = new System.Drawing.Size(164, 20);
             this.txtQuantidade.TabIndex = 17;
@@ -212,8 +212,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Highlight;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.ClientSize = new System.Drawing.Size(615, 450);
             this.Controls.Add(this.txtTotal);
             this.Controls.Add(this.txtQuantidade);
             this.Controls.Add(this.txtVendaId);
